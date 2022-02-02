@@ -32,18 +32,18 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="Array.Resize(selectArray&lt;br&gt;, i + 1)&lt;br&gt;selectArray&lt;span style=&quot;color: rgb(189 , 193 , 198) ; font-family: &amp;#34;google sans text&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(32 , 33 , 36)&quot;&gt;[i] = &lt;/span&gt;array[x]&lt;br&gt;i = i + 1&amp;nbsp;&lt;span style=&quot;color: rgb(189 , 193 , 198) ; font-family: &amp;#34;google sans text&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(32 , 33 , 36)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="14" value="selectArray&lt;span style=&quot;color: rgb(189 , 193 , 198) ; font-family: &amp;#34;google sans text&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(32 , 33 , 36)&quot;&gt;[i] = &lt;/span&gt;array[x]&lt;br&gt;i = i + 1&amp;nbsp;&lt;span style=&quot;color: rgb(189 , 193 , 198) ; font-family: &amp;#34;google sans text&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(32 , 33 , 36)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="312.5" y="580" width="215" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="550" y="455" width="160" height="70" as="geometry"/>
+                    <mxGeometry x="660" y="460" width="160" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="420" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="Create selectArray[0]&lt;br&gt;i = 0" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="22" value="Create selectArray[n]&lt;br&gt;i = 0" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="320" y="250" width="200" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="28" target="36" edge="1">
@@ -66,7 +66,7 @@
                 <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="36" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="36" target="45" edge="1">
+                <mxCell id="49" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="48">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="x &amp;lt; n" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -76,13 +76,19 @@
                     <mxGeometry x="420" y="420" width="30" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="360" width="30" height="20" as="geometry"/>
+                    <mxGeometry x="490" y="360" width="30" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="45" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="print selectArray" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="355" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="680" y="355" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;span&gt;Array.Resize(selectArray&lt;/span&gt;&lt;span&gt;, i)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="352.5" width="140" height="65" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
